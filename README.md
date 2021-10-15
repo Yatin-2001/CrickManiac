@@ -1,13 +1,13 @@
 # CrickManiac - A Web Scrapping Project
 
 # This project uses following npm libraries:
-# 1) minimist - library used to read command line arguments
-# 2) fs - library to use file realted functions
-# 3) axios - library to download data from web
-# 4) jsdom - used to extract/parse the html file that is downloaded
-# 5) ecxel4node - used to write the excel file
-# 6) pdf-lib - used to write the pdf file
-# 7) path - used to make get path of folder
+# 1) minimist (npm install minimist) - library used to read command line arguments
+# 2) fs (preinstalled) - library to use file realted functions
+# 3) axios (npm install axios) - library to download data from web
+# 4) jsdom (npm install jsdom) - used to extract/parse the html file that is downloaded
+# 5) ecxel4node (npm install excel4node) - used to write the excel file
+# 6) pdf-lib (npm install pdf-lib) - used to write the pdf file
+# 7) path (preinstalled) - used to make get path of folder
 
 # The gist of project is scrapping the data of teams and matches from the html file downloaded from CrickInfo website.
 # The data parsed from the file is then used to create the excel files and then finally the pdf's teamwise.
@@ -26,3 +26,5 @@
 # This is resolved by appending the numbers at the end of teams name while making the name of pdf.
 
 # The other features and functions can be seen in the code clearly.
+
+# ** Note: To run the codes, we will need to install the required libraries. 
