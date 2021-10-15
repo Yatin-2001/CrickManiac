@@ -1,1 +1,1 @@
-# CrickManiac
+# CrickManiac - A Web Scrapping Project
