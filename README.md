@@ -21,4 +21,8 @@
 # 2) The second file, teams.xlsx is created using the act-1.js file. This file contains the details team-wise.
 # The pdfs are stored in the Teams folder team wise. The Pdfs are created using act-1.js file.
 
-# Now the features and functions can be seen in the code clearly.
+# Also added a function to make seperate pdf files to resolve the problem of having details of only one match if same teams have more than one match.
+# The problem is the fact that two files can not have same paths in the file system.
+# This is resolved by appending the numbers at the end of teams name while making the name of pdf.
+
+# The other features and functions can be seen in the code clearly.
